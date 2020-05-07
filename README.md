@@ -1,2 +1,3 @@
-# Rubber-Ducky-Library
-A library :/
+# Get Started!
+
+Add files and start typing 🎉
