@@ -1,8 +1,11 @@
+html {
+  height: auto;
+  
+}
 body {
   margin: 0px;
 }
 .layout {
-  border: black 5px solid;
   height: 100%;
   display: flex;
 }
@@ -23,7 +26,6 @@ body {
   text-align: center;
 }
 .mainbar {
-  border: orange 5px solid;
   width: 70%;
 }
 .searchbar{
@@ -34,8 +36,9 @@ body {
   align-items: center;
 }
 .listbar {
-  border: green 5px solid;
+  border: orange 5px solid;
   height: 77%;
+  overflow: auto;
 }
 .resultsHeader {
   margin-left: 5%;
@@ -48,5 +51,10 @@ body {
   width: 80px;
 }
 .bookItems {
-  border: lime 1px solid;
+  border-top: gray 1px dotted;
+  height: auto;
+  display: flex;
+}
+.bookImg {
+  width: 90%;
 }
