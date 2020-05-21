@@ -58,3 +58,7 @@ body {
 .bookImg {
   width: 90%;
 }
+.nextBooks {
+  display: flex;
+  justify-content: space-around;
+}
